@@ -12,7 +12,10 @@ grade_dict = {
 
 
 def get_grade(grade):
-    return grade_dict[grade]
+    try:
+        return grade_dict[grade]
+    except KeyError:
+        return 'none'
 
 
 if __name__ == '__main__':
