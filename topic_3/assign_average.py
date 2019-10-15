@@ -2,7 +2,10 @@
 Alex Rickels
 Topic 3 Assignment 1 - switch case"""
 
-grade_dict = {'A': 90}
+grade_dict = {
+    'A': 90,
+    'B': 80
+}
 
 
 def get_grade(grade):
