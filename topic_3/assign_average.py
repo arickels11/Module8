@@ -2,10 +2,12 @@
 Alex Rickels
 Topic 3 Assignment 1 - switch case"""
 
+grade_dict = {'A': 90}
 
-def switch_average(variable_to_compare)
-    pass
+
+def get_grade(grade):
+    return grade_dict[grade]
 
 
 if __name__ == '__main__':
-    print(switch_average())
+    print(get_grade('A'))
