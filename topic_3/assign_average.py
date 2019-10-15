@@ -4,7 +4,8 @@ Topic 3 Assignment 1 - switch case"""
 
 grade_dict = {
     'A': 90,
-    'B': 80
+    'B': 80,
+    'C': 70,
 }
 
 
