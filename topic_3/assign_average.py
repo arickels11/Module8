@@ -12,6 +12,10 @@ grade_dict = {
 
 
 def get_grade(grade):
+    """
+    :param grade: input from user the grade they want to see the number for
+    :return: number value for average of that letter grade
+    """
     try:
         return grade_dict[grade]
     except KeyError:
